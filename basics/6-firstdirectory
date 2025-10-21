@@ -1,0 +1,1 @@
+#!/bin/bash\nmkdir -p /tmp/my_first_directory
