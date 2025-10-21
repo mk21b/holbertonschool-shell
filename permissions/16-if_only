@@ -1,2 +1,2 @@
 #!/bin/bash
-chown $(test $(stat -c %U hello) = guillaume && echo vincent) hello
+find hello -maxdepth 0 -user guillaume -exec chown vincent {} \+
